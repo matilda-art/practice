@@ -17,6 +17,9 @@ public class TestDemo {
     public Node head;
 
     public void removeElements(int val) {
+        if(head == null) {
+               return null;
+        }
         Node prev = this.head;
         Node cur = this.head.next;
         while (cur != null){
