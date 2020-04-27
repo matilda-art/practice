@@ -28,9 +28,6 @@ public class TestDemo {
                 return true;
             }
         }
-        if (fast == null && fast.next == null) {
             return false;
-        }
-        return true;
     }
 }
