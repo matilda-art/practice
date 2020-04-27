@@ -16,7 +16,6 @@ class Node {
 
 public class TestDemo {
     public Node head;
-
     public Node detectCycle(){
         Node fast = this.head;
         Node slow = this.head;
