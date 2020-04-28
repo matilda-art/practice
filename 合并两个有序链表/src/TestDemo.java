@@ -9,7 +9,6 @@ class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 }
-
 public class TestDemo {
     public ListNode mergeTwoLists(ListNode headA, ListNode headB) {
         ListNode newHead = new ListNode(-1);
