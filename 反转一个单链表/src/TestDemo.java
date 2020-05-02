@@ -5,7 +5,6 @@
  * @create: 2020-04-25 17:40
  **/
  
- 
 class Node{
     public int data;
     public Node next;
