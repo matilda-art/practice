@@ -18,7 +18,7 @@ public class Main {
         String expected = scanner.nextLine();
         String actual = scanner.nextLine();
 
-        //把实际的自父母转换为大写存放到集合当中
+        //把实际的字符转换为大写存放到集合当中
         HashSet<Character> setActual = new HashSet<>();
         for (char s:actual.toUpperCase().toCharArray()) {
             setActual.add(s);
